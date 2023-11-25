@@ -1,0 +1,54 @@
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "正在检查",
+    Text = "检测中...",
+    Duration = 5,
+})
+
+wait(1)
+
+woshiwho = game.Players.LocalPlayer.Name
+woshiwho = {
+    "susawaChina",
+    "yu20200415",
+    "123577qwe",
+    "qiranks",
+    "lalasmkwqK",
+    "kelukeyxpx",
+    "AB_189546822",
+    "hanxin98",
+    "huangshibing",
+    "FX33321",
+    "ks_yangnb6666",
+    "ttfkhv",
+    "20113yyds",
+    "noopmevk1",
+    "qwertyuiop5226351",
+    "LUOLUOLUO03",
+    "jkljjghxg",
+    "liu6230016",
+    "wtry138",
+    "nahida_cn",
+    "hdh258312",
+    "lsqwan00",
+    "CN_ase",
+}
+if woshiwho then
+   local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "检测结果",
+    Text = "检测到您("..game.Players.LocalPlayer.Name..")已经被加入白名单",
+    Duration = 5,
+})
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fuigdrjk/urban-garbanzo/main/fkg.txt",true))()
+
+    else 
+  setclipboard("728293118")
+      local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "检测结果",
+    Text = "已自动复制QQ群群号，请加入",
+    Duration = 5,
+})
+end
