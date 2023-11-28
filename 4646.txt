@@ -33,6 +33,7 @@ woshiwho = {
     "hdh258312",
     "lsqwan00",
     "CN_ase",
+    "znznznznm99",
 }
 if woshiwho then
    local CoreGui = game:GetService("StarterGui")
