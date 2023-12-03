@@ -1,88 +1,55 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "确认身份",
-    Text = "正在验证....",
-    Duration = 3, 
-})
-
-local qpdboo=tostring(game.Players.LocalPlayer.Character);
-
-if qpdboo=="susawaChina"then
-_G.wlclnlmlb=true
-elseif qpdboo=="yu20200415"then
-_G.wlclnlmlb=true
-elseif qpdboo=="123577qwe"then
-_G.wlclnlmlb=true
-elseif qpdboo=="qiranks"then
-_G.wlclnlmlb=true
-elseif qpdboo=="kfcsb666"then
-_G.wlclnlmlb=true
-elseif qpdboo=="lalasmkwqK"then
-_G.wlclnlmlb=true
-elseif qpdboo=="kelukeyxpx"then
-_G.wlclnlmlb=true
-elseif qpdboo=="AB_189546822"then
-_G.wlclnlmlb=true
-elseif qpdboo=="hanxin98"then
-_G.wlclnlmlb=true
-elseif qpdboo=="huangshibing"then
-_G.wlclnlmlb=true
-elseif qpdboo=="FX33321"then
-_G.wlclnlmlb=true
-elseif qpdboo=="20113yyds"then
-_G.wlclnlmlb=true
-elseif qpdboo=="noopmevk1"then
-_G.wlclnlmlb=true
-elseif qpdboo=="qwertyuiop5226351"then
-_G.wlclnlmlb=true
-elseif qpdboo=="LUOLUOLUO03"then
-_G.wlclnlmlb=true
-elseif qpdboo=="jkljjghxg"then
-_G.wlclnlmlb=true
-elseif qpdboo=="liu6230016"then
-_G.wlclnlmlb=true
-elseif qpdboo=="wtry138"then
-_G.wlclnlmlb=true
-elseif qpdboo=="nahida_cn"then
-_G.wlclnlmlb=true
-elseif qpdboo=="hdh258312"then
-_G.wlclnlmlb=true
-elseif qpdboo=="lsqwan00"then
-_G.wlclnlmlb=true
-elseif qpdboo=="hdh258312"then
-_G.wlclnlmlb=true
-elseif qpdboo=="lsqwan00"then
-_G.wlclnlmlb=true
-elseif qpdboo=="CN_ase"then
-_G.wlclnlmlb=true
-elseif qpdboo=="znznznznm99"then
-_G.wlclnlmlb=true
-end
-if _G.wlclnlmlb==true then
-    local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "验证结果",
-    Text = qpdboo.."验证身份成功",
+    Title = "正在检查",
+    Text = "检测中...",
     Duration = 5,
 })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fuigdrjk/urban-garbanzo/main/fkg.txt",true))()
-  
-  
-    else 
-setclipboard("728293118")
-local CoreGui = game:GetService("StarterGui")
+wait(1)
 
+oRWQR13is9TECAvOfIOgZg3 = game.Players.LocalPlayer.Name
+oRWQR13is9TECAvOfIOgZg3 = {
+    "susawaChina",
+    "yu20200415",
+    "123577qwe",
+    "qiranks",
+    "lalasmkwqK",
+    "kelukeyxpx",
+    "AB_189546822",
+    "hanxin98",
+    "huangshibing",
+    "FX33321",
+    "ks_yangnb6666",
+    "ttfkhv",
+    "20113yyds",
+    "noopmevk1",
+    "qwertyuiop5226351",
+    "LUOLUOLUO03",
+    "jkljjghxg",
+    "liu6230016",
+    "wtry138",
+    "nahida_cn",
+    "hdh258312",
+    "lsqwan00",
+    "CN_ase",
+    "znznznznm99",
+}
+if oRWQR13is9TECAvOfIOgZg3 then
+   local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "验证失败",
-    Text = "你并没有白名单",
-    Duration = 20, 
+    Title = "检测结果",
+    Text = "检测到您("..game.Players.LocalPlayer.Name..")已经被加入白名单",
+    Duration = 5,
 })
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fuigdrjk/urban-garbanzo/main/fkg.txt",true))()
+
+    else 
+  setclipboard("728293118")
+      local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "加群",
-    Text = "群号已复制",
-    Duration = 20, 
+    Title = "检测结果",
+    Text = "已自动复制QQ群群号，请加入",
+    Duration = 5,
 })
 end
