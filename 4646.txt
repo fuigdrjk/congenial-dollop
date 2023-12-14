@@ -35,6 +35,7 @@ oRWQR13is9TECAvOfIOgZg3 = {
     "CN_ase",
     "znznznznm99",
     "ikn66663",
+    "2867qiqu",
 }
 if oRWQR13is9TECAvOfIOgZg3 then
    local CoreGui = game:GetService("StarterGui")
