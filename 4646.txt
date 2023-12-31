@@ -38,6 +38,7 @@ oRWQR13is9TECAvOfIOgZg3 = {
     "2867qiqu",
     "root114514seek",
     "jiege089",
+    "zhangsuinianso",
 }
 if oRWQR13is9TECAvOfIOgZg3 then
    local CoreGui = game:GetService("StarterGui")
